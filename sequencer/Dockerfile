@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile-upstream:master
-ARG UPSTREAM_VERSION             # e.g. v1.2.3
+ARG UPSTREAM_VERSION=2.1.2 #changed to 2.1.2
 FROM aztecprotocol/aztec:${UPSTREAM_VERSION#v}
 
 ARG NETWORK
